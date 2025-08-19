@@ -46,7 +46,7 @@
 </head>
 <body>
     <h1>Libft - C Library</h1>
-    <p>Libft is a library that contains a set of fundamental functions in C, reimplementing some standard C library functions with additional helpful utilities to ease programming.</p>
+    <p>Libft is a library containing a set of fundamental C functions, reimplementing some standard C library functions with additional utilities to simplify programming.</p>
 
     <div class="section">
         <h2>1. Character Functions</h2>
@@ -55,8 +55,8 @@
         <div class="function"><code>ft_isalnum(int c)</code> : Checks if the character is alphanumeric.</div>
         <div class="function"><code>ft_isascii(int c)</code> : Checks if the character is in the ASCII table.</div>
         <div class="function"><code>ft_isprint(int c)</code> : Checks if the character is printable.</div>
-        <div class="function"><code>ft_tolower(int c)</code> : Converts an uppercase letter to lowercase.</div>
-        <div class="function"><code>ft_toupper(int c)</code> : Converts a lowercase letter to uppercase.</div>
+        <div class="function"><code>ft_tolower(int c)</code> : Converts uppercase to lowercase.</div>
+        <div class="function"><code>ft_toupper(int c)</code> : Converts lowercase to uppercase.</div>
     </div>
 
     <div class="section">
@@ -66,12 +66,12 @@
         <div class="function"><code>ft_strrchr(const char *s, int c)</code> : Finds the last occurrence of a character in a string.</div>
         <div class="function"><code>ft_strncmp(const char *s1, const char *s2, size_t n)</code> : Compares up to n characters of two strings.</div>
         <div class="function"><code>ft_strnstr(const char *haystack, const char *needle, size_t len)</code> : Locates a substring within a string up to length len.</div>
-        <div class="function"><code>ft_strdup(const char *s)</code> : Duplicates a string in a new memory location.</div>
+        <div class="function"><code>ft_strdup(const char *s)</code> : Duplicates a string in new memory.</div>
         <div class="function"><code>ft_substr(const char *s, unsigned int start, size_t len)</code> : Returns a substring starting at a given index.</div>
         <div class="function"><code>ft_strjoin(const char *s1, const char *s2)</code> : Joins two strings into a new string.</div>
         <div class="function"><code>ft_strtrim(const char *s1, const char *set)</code> : Trims characters in set from the start and end of a string.</div>
         <div class="function"><code>ft_split(const char *s, char c)</code> : Splits a string into an array of strings using a delimiter.</div>
-        <div class="function"><code>ft_strmapi(const char *s, char (*f)(unsigned int, char))</code> : Applies a function to each character of a string and returns a new string.</div>
+        <div class="function"><code>ft_strmapi(const char *s, char (*f)(unsigned int, char))</code> : Applies a function to each character and returns a new string.</div>
     </div>
 
     <div class="section">
@@ -99,6 +99,6 @@
         <div class="function"><code>ft_putnbr_fd(int n, int fd)</code> : Writes an integer to a file descriptor.</div>
     </div>
 
-    <p><strong>Note:</strong> This library is a strong foundation for bigger C projects like <code>printf</code> or <code>get_next_line</code>.</p>
+    <p><strong>Note:</strong> This library provides a strong foundation for bigger C projects like <code>printf</code> or <code>get_next_line</code>.</p>
 </body>
 </html>
